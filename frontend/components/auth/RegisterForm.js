@@ -95,7 +95,7 @@ function Register({isSubmitting, setIsSubmitting}) {
                 console.error('An unexpected error occurred while redirecting to login page');
             });
         } else {
-            setErrorMessage("An error occurred while registering. Please try again.");
+            setErrorMessage("An error occurred while registering. Please try again. !!!!!!!!!!!!!!!!!!!");
             setIsSubmitting(false);
         }
     };
